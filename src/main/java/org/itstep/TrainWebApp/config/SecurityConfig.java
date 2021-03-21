@@ -15,7 +15,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 @Configuration
 @EnableWebSecurity
-@ComponentScan("org.itstep.TrainWebApp.security")
+@ComponentScan("org.itstep.TrainWebApp")
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     private CustomerServiceBaseImpl customerService;
